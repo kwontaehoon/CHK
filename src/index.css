@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+body {
+  margin: 0;
+  font-family: 'HoengSeong',sans-serif;
+  font-size: 16px;
+}
+a,a:hover{
+  color: #333;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'HoengSeong';
+  src: url('../public/Hoengseong\ Hanu.ttf');
+}
