@@ -9,7 +9,7 @@ const FixBar = () => {
             <p>장 바 구 니</p>
         </div>
         
-        <a href="#up"><div className="w_gotop">
+        <a href="#"><div className="w_gotop">
            <i class="fa-solid fa-arrow-up"></i>
         </div></a>
     </div>
