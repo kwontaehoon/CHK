@@ -22,26 +22,26 @@ import { FreeMode, Pagination } from "swiper";
 export default function Nav() {
 
     const arr = [
-        {id: 1, age: '12', score: 97, img: age12, poster: '/images/닥터스트레인지.jpg', title: '닥터스트레인지-대혼돈의멀티버스'},
-        {id: 2, age: '전체', score: 97, img: age0, poster: '/images/겨울왕국1.jpg', title: '겨울왕국'},
-        {id: 3, age: '12', score: 93, img: age12, poster: '/images/공기살인.jpg', title: '공기살인'},
-        {id: 4, age: '15', score: 95, img: age15, poster: '/images/귀칼.jpg', title: '극장판 귀멸의 칼날-무한열차편'},
-        {id: 5, age: '청불', score: 97, img: age19, poster: '/images/내부자들.jpg', title: '내부자들'},
-        {id: 6, age: '15', score: 82, img: age15, poster: '/images/모비우스.jpg', title: '모비우스'},
-        {id: 7, age: '전체', score: 93, img: age0, poster: '/images/수퍼 소닉2.jpg', title: '수퍼소닉2'},
-        {id: 8, age: '12', score: 93, img: age12, poster: '/images/신과함께.jpg', title: '신과함께 죄와벌'},
-        {id: 9, age: '12', score: 82, img: age12, poster: '/images/신비한 동물들과 덤블도어의 비밀.jpg', title: '신비한 동물사전'},
-        {id: 10, age: '12', score: 0, img: age12, poster: '/images/심슨 가족 더 무비.jpg', title: '심슨가족더무비'},
-        {id: 11, age: '청불', score: 64, img: age19, poster: '/images/아수라.jpg', title: '아수라'},
-        {id: 12, age: '15', score: 87, img: age15, poster: '/images/앵커.jpg', title: '앵커'},
-        {id: 13, age: '15', score: 94, img: age15, poster: '/images/주술회전.jpg', title: '극장판 주술회전'},
-        {id: 14, age: '전체', score: 97, img: age0, poster: '/images/짱구는 못말려 낙서왕국.jpg', title: '짱구는 못말려 : 낙서왕국'},
-        {id: 15, age: '청불', score: 79, img: age19, poster: '/images/타짜.jpg', title: '타짜'},
-        {id: 16, age: '전체', score: 98, img: age0, poster: '/images/토이스토리.jpg', title: '토이스토리'},
-        {id: 17, age: '전체', score: 97, img: age0, poster: '/images/해리포터 불사조 기사단.jpg', title: '해리포터와 불사조 기시단'},
-        {id: 18, age: '전체', score: 98, img: age0, poster: '/images/해리포터 죽음의 성물.jpg', title: '해리포터와 죽음의 성물2'},
-        {id: 19, age: '청불', score: 98, img: age19, poster: '/images/신세계.jpg', title: '신세계'},
-        {id: 20, age: '15', score: 85, img: age15, poster: '/images/뺑반.jpg', title: '뺑반'}
+        {id: 1, age: '12', score: 97, img: age12, poster: '/K_images/닥터스트레인지.jpg', title: '닥터스트레인지-대혼돈의멀티버스'},
+        {id: 2, age: '전체', score: 97, img: age0, poster: '/K_images/겨울왕국1.jpg', title: '겨울왕국'},
+        {id: 3, age: '12', score: 93, img: age12, poster: '/K_images/공기살인.jpg', title: '공기살인'},
+        {id: 4, age: '15', score: 95, img: age15, poster: '/K_images/귀칼.jpg', title: '극장판 귀멸의 칼날-무한열차편'},
+        {id: 5, age: '청불', score: 97, img: age19, poster: '/K_images/내부자들.jpg', title: '내부자들'},
+        {id: 6, age: '15', score: 82, img: age15, poster: '/K_images/모비우스.jpg', title: '모비우스'},
+        {id: 7, age: '전체', score: 93, img: age0, poster: '/K_images/수퍼 소닉2.jpg', title: '수퍼소닉2'},
+        {id: 8, age: '12', score: 93, img: age12, poster: '/K_images/신과함께.jpg', title: '신과함께 죄와벌'},
+        {id: 9, age: '12', score: 82, img: age12, poster: '/K_images/신비한 동물들과 덤블도어의 비밀.jpg', title: '신비한 동물사전'},
+        {id: 10, age: '12', score: 0, img: age12, poster: '/K_images/심슨 가족 더 무비.jpg', title: '심슨가족더무비'},
+        {id: 11, age: '청불', score: 64, img: age19, poster: '/K_images/아수라.jpg', title: '아수라'},
+        {id: 12, age: '15', score: 87, img: age15, poster: '/K_images/앵커.jpg', title: '앵커'},
+        {id: 13, age: '15', score: 94, img: age15, poster: '/K_images/주술회전.jpg', title: '극장판 주술회전'},
+        {id: 14, age: '전체', score: 97, img: age0, poster: '/K_images/짱구는 못말려 낙서왕국.jpg', title: '짱구는 못말려 : 낙서왕국'},
+        {id: 15, age: '청불', score: 79, img: age19, poster: '/K_images/타짜.jpg', title: '타짜'},
+        {id: 16, age: '전체', score: 98, img: age0, poster: '/K_images/토이스토리.jpg', title: '토이스토리'},
+        {id: 17, age: '전체', score: 97, img: age0, poster: '/K_images/해리포터 불사조 기사단.jpg', title: '해리포터와 불사조 기시단'},
+        {id: 18, age: '전체', score: 98, img: age0, poster: '/K_images/해리포터 죽음의 성물.jpg', title: '해리포터와 죽음의 성물2'},
+        {id: 19, age: '청불', score: 98, img: age19, poster: '/K_images/신세계.jpg', title: '신세계'},
+        {id: 20, age: '15', score: 85, img: age15, poster: '/K_images/뺑반.jpg', title: '뺑반'}
     ];
     const arrsort = [...arr];
 
