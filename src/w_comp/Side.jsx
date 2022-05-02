@@ -10,7 +10,7 @@ const side = () => {
           <p>3,500 원 <i class="fa-solid fa-minus"></i> 250kcal</p> 
         </div>
         <div className="w_box">
-          <img className="w_pop"src="w_/hotd.jpg"/>
+          <img className="w_pop"src="w_images/hotd.jpg"/>
           <p>핫도그</p>
           <p>2,500 원 <i class="fa-solid fa-minus"></i> 300kcal</p> 
         </div>
