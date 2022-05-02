@@ -4,7 +4,7 @@ body {
   font-family: 'HoengSeong',sans-serif;
   font-size: 16px;
 }
-a,a:hover{
+a,a:hover:not(.b_myButton){
   color: #333;
   text-decoration: none;
   margin: 0;
