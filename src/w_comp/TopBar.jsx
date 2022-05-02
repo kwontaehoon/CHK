@@ -17,7 +17,7 @@ export default class TopBar extends Component {
           <li><i class="fa-solid fa-video"></i> Buy</li>
         </ul>
         <ul className="w_top">
-              <li><Link to="/"> <i class="fa-solid fa-star"></i> Snack <i class="fa-solid fa-star"></i></Link></li>
+              <li><Link to="/snack"> <i class="fa-solid fa-star"></i> Snack <i class="fa-solid fa-star"></i></Link></li>
               <span><i class="fa-solid fa-minus"></i></span>
               <li><Link to="/giftshop"> <i class="fa-solid fa-star"></i> Gift-Shop <i class="fa-solid fa-star"></i> </Link></li>
         </ul>

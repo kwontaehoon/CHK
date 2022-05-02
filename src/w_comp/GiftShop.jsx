@@ -3,7 +3,7 @@ import './giftshop.css';
 // import React, { Component } from "react";
 import Slider from "react-slick";
 import FixBar from './FixBar';
-
+import TopBar from './TopBar';
 
 const GiftShop = () => {
         var settings = {
@@ -16,6 +16,8 @@ const GiftShop = () => {
           pauseOnHover: true
         };
   return (
+    <>
+    <TopBar />
     <div className="w_s-n">
         <h2><i class="fa-solid fa-circle"></i> gift - shop </h2>
           <div className="w_movie-shop">
@@ -488,7 +490,7 @@ const GiftShop = () => {
         <FixBar/>
 
     </div>
-     
+    </>
    
   )
 }

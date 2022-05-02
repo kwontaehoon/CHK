@@ -1,4 +1,5 @@
 import React from 'react';
+import TopBar from './TopBar'
 import Snack from './Snack';
 import Giftshop from './GiftShop';
 import { Routes, Route } from "react-router-dom";

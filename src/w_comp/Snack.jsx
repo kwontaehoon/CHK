@@ -4,7 +4,7 @@ import Popcorn from './Popcorn';
 import Drink from './Drink';
 import Side from './Side';
 import FixBar from './FixBar';
-
+import TopBar from './TopBar';
 const Snack = () => {
 
   
@@ -31,6 +31,9 @@ const Snack = () => {
  
 
   return (
+    <>
+    
+    <TopBar />
     <div className="w_s-n">
         <h2><i class="fa-solid fa-circle"></i> snack : 맛있으면 0 칼로리~!</h2>
         <div className="w_snack-bar_box">
@@ -59,7 +62,7 @@ const Snack = () => {
         </div>
         <FixBar/>
     </div>
- 
+    </>
       
     
   )
